@@ -13,7 +13,7 @@ while True: #Infinite loop for capturing the frames
     #Define Criteria, number of clusters(k), and apply Kmeans
     criteria = (cv2.TERM_CRITERIA_EPS * cv2.TERM_CRITERIA_MAX_ITER, 3, 0.9)
 
-    k = 10  #Number of clusters to be defined
+    k = 10  #Number ofNice to seee github
 
     ret, label, center = cv2.kmeans(z, k, None, criteria, 1, cv2.KMEANS_RANDOM_CENTERS)
 
